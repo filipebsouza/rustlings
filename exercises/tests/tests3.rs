@@ -14,6 +14,10 @@ mod tests {
 
     #[test]
     fn is_true_when_even() {
+<<<<<<< HEAD
         assert!(is_even(2));
+=======
+        assert!(is_even(4));
+>>>>>>> 638c0c2f6c0744b8d618be0d3e71df6cb1ffeb84
     }
 }
