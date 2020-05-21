@@ -592,7 +592,11 @@ dependencies = [
 
 [[package]]
 name = "rustlings"
+<<<<<<< HEAD
 version = "2.2.1"
+=======
+version = "3.0.0"
+>>>>>>> c9e4f2cfb4c48d0b7451263cfb43b9426438122d
 dependencies = [
  "assert_cmd 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "clap 2.33.0 (registry+https://github.com/rust-lang/crates.io-index)",
