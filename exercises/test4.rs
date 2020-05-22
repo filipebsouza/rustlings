@@ -5,15 +5,13 @@
 
 // Write a macro that passes the test! No hints this time, you can do it!
 
-// I AM NOT DONE
-
 #[cfg(test)]
 mod tests {
     use super::*;
 
     macro_rules! my_macro {
-        ($val:expr) => {
-            println!("Hello {}", $val);            
+        ($val: expr) => {
+            format!("Hello {}", $val);
         };
     }
 
